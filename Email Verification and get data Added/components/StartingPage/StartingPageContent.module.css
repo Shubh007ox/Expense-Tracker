@@ -1,0 +1,48 @@
+.starting {
+  margin: 3rem auto;
+  text-align: center;
+}
+
+.starting h1 {
+  font-size: 2rem;
+}
+
+.actions {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.actions button {
+  cursor: pointer;
+  font: inherit;
+  color: white;
+  background-color:rgb(14, 11, 224);
+  border: 1px solid #d7d6e2;
+  border-radius: 4px;
+  padding: 0.5rem 2.5rem;
+}
+
+.actions button:hover {
+  background-color: #5766ee;
+  border-color: #060218;
+}
+
+.actions .toggle {
+  margin-top: 1rem;
+  background-color: transparent;
+  color:azure;
+  border: none;
+  padding: 0.15rem 1.5rem;
+  font-weight: bolder;
+  font-style: italic;
+  text-decoration: line-through;
+  text-decoration: overline;
+  font-size: large;
+}
+
+.actions .toggle:hover {
+  background-color: transparent;
+  color: #110ea8;
+}
